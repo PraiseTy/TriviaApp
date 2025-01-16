@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.quiz_text {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.header_text {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+
+  h1 {
+    font-weight: 400;
+    padding: 15px 5px;
+    font-size: 34px;
+  }
+}
+
+.title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 20px;
+}
+
+.quiz_button {
+  background-color: #00973f;
+  text-transform: uppercase;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  font-weight: 500px;
+  cursor: pointer;
+  // div {
+  //   text-decoration: none;
+  //   color: rgb(255, 255, 255);
+  // }
+}
+
+.quiz_button:hover {
+  background-color: #00692c;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    line-height: 1.6;
+  }
+}
