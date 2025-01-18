@@ -19,10 +19,6 @@
 .container {
   height: 80vh;
   width: 600px;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-between;
-  //   align-items: center;
   text-align: center;
   margin-top: 100px;
   position: fixed;
@@ -71,11 +67,6 @@
   color: rgb(0, 151, 63);
   border: 3px solid rgb(125, 230, 168);
 }
-
-// .first_boolean.active {
-//   color: rgb(0, 151, 63);
-//   border: 3px solid rgb(125, 230, 168);
-// }
 
 .second_boolean:hover,
 .second_boolean.active {
