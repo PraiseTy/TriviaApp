@@ -49,7 +49,7 @@ function Review() {
                 );
               }).length
             }
-            /{questions.length}{" "}
+            /{questions.length}
             <span>
               {questions.filter((question, index) => {
                 return (
